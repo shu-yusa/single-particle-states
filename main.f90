@@ -25,7 +25,6 @@ program main
     do s=0, 1
       do L=s, 15
         if (.not. sp%bind_energy(-ip%V0, epsr, q, s, L)) exit
-        write(output_unit,*)  'L =', L
         call print_vec(sp%E)
       end do
     end do

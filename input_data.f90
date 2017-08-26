@@ -1,8 +1,9 @@
 module input_data
   type inp
+    integer :: rgrid
     real(8) :: A, Z
     real(8) :: V0, av, r0, Rn, mass, Vso, rc0, Rc
-    real(8) :: rmin, rmax, dr, rgrid
+    real(8) :: rmin, rmax, dr
 
     contains
 
