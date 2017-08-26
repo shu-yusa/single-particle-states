@@ -15,7 +15,7 @@ This will produce an executable file `a.out`. Execute the calculation by
 ```
 
 ## Input file
-`input_scat` is the input file for the calculation. You can configure reaction details and output directory.
+`input.txt` is the input file for the calculation. You can configure mass number, proton number, and paramters of the Woods-Saxon potential.
 
 ## Details of source codes and modules
 * global_constant.f90 ... Definition of constants.
